@@ -1,0 +1,119 @@
+.header{
+    background: #FFFFFF;
+}
+.header_top{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 36px;
+    color: #8c8c8c;
+    background-color: #fafafa;
+}
+.header_w1200{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.h_t_l{
+    float: left;
+}
+.login_l{
+    position: relative;
+}
+.login_l span,.login_l a{
+    font-family: "宋体";
+    display: inline-block;
+    vertical-align: middle;
+    color: #8c8c8c;
+    font-size:12px ;
+}
+.login_l a{
+    font-family: "宋体";
+    display: inline-block;
+    vertical-align: middle;
+    color: #8c8c8c;
+    font-size: 12px;
+    text-decoration: none;
+}
+.login_l .login_l_l{
+    padding: 0 10px 0 20px;
+}
+.login_l .lee{
+    background: #dfdfdf none repeat scroll 0 0;
+    height: 14px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+}
+.login_l .login_l_r{
+    padding-left: 8px;
+}
+.h_t_r{
+    float: right;
+}
+.h_t_r ul li{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    z-index: 8;
+}
+.h_t_r a{
+    font-family: "宋体";
+    padding: 0 10px;
+    line-height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #8c8c8c;
+    font-size: 12px;
+    text-decoration: none;
+}
+.h_t_r .line{
+    background: #dfdfdf none repeat scroll 0 0;
+    height: 14px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.h_t_r .call_harry{
+    background: url(../img/icon_list.png) no-repeat 0 -38px;
+    width: 14px;
+    height: 13px;
+    margin: 0 4px 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.h_t_r .call_call{
+    padding-right: 10px;
+    font-size: 12px;
+}
+.h_t_r .dowm_load_app{
+    position: absolute;
+    top: 36px;
+    left: -10px;
+    z-index: 15;
+    background-color: #fff;
+    border-top: 1px solid #dfdfdf;
+}
+.down_load_app_box{
+    border: 1px solid #f6f6f6;
+    box-shadow: 0 0 1px #f6f6f6;
+    padding: 5px;
+    margin-top: 5px;
+}
+.h_t_r .app_top{
+    position: absolute;
+    top: -2px;
+    width: 12px;
+    height: 8px;
+    background: url(../img/icon_list.png) no-repeat -234px -592px;
+    left: 50%;
+    margin-left: -6px;
+}
+.down_load_app_box p{
+    height: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
+    color: #3b3b3b;
+}

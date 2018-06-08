@@ -1,0 +1,20 @@
+$w:200px;
+$c:red;
+body{
+    width:$w;
+    height:$w;
+    background:$c;
+    font-size:$w;
+}
+#body1{
+    width:$w;
+    height:$w;
+    background:$c;
+    font-size:$w;
+}
+#body2{
+    width:$w;
+    height:$w;
+    background:$c;
+    font-size:$w;
+}

@@ -9,7 +9,7 @@
   color: #8c8c8c;
   background-color: #fafafa; }
 
-.header_w1200 {
+.w1200 {
   width: 1200px;
   margin: 0 auto;
   overflow: hidden; }
@@ -78,7 +78,7 @@
   vertical-align: middle; }
 
 .h_t_r .call_harry {
-  background: url(../img/icon_list.png) no-repeat 0 -38px;
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat 0 -38px;
   width: 14px;
   height: 13px;
   margin: 0 4px 0 10px;
@@ -108,7 +108,7 @@
   top: -2px;
   width: 12px;
   height: 8px;
-  background: url(../img/icon_list.png) no-repeat -234px -592px;
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat -234px -592px;
   left: 50%;
   margin-left: -6px; }
 
@@ -117,3 +117,823 @@
   line-height: 1.2em;
   text-align: center;
   color: #3b3b3b; }
+
+.down_load_app_tou {
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat scroll -157px -696px;
+  height: 6px;
+  width: 10px;
+  margin-left: 5px;
+  display: inline-block; }
+
+.h_r_huiyuan {
+  position: absolute;
+  top: 35px;
+  left: -1px;
+  z-index: 5;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 100%;
+  background-color: #fff;
+  text-align: left; }
+
+.h_r_huiyuan a {
+  height: 25px;
+  line-height: 25px; }
+
+.top_login {
+  width: 100%; }
+
+.top_login_box {
+  margin-top: 30px;
+  margin-bottom: 19px; }
+
+.top_login_left {
+  float: left;
+  width: 74px;
+  margin-right: 7px; }
+
+.top_login_mind {
+  float: left;
+  width: 457px;
+  padding-top: 20px;
+  margin-right: 15px;
+  padding-top: 24px; }
+
+.top_login_mind img {
+  display: block;
+  width: 440px;
+  height: 29px; }
+
+.top_login_search {
+  float: left;
+  width: 500px; }
+
+.t_search_input {
+  width: 494px;
+  height: 35px;
+  margin-top: 19px;
+  border: 3px solid #94193f;
+  z-index: 6;
+  position: relative; }
+
+.search_first {
+  border: none;
+  float: left;
+  height: 19px;
+  padding: 8px 0;
+  width: 397px;
+  font-size: 12px;
+  text-indent: 8px;
+  vertical-align: middle; }
+
+.btn_search {
+  cursor: pointer;
+  background-color: #94193f;
+  border: medium none;
+  color: #fff;
+  float: left;
+  height: 35px;
+  width: 97px;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei';
+  line-height: 33px; }
+
+.t_search_key {
+  float: left;
+  margin-top: 4px;
+  width: 100%;
+  height: 25px;
+  overflow: hidden;
+  line-height: 25px; }
+
+.t_search_key li a {
+  padding: 0 5px 0 0;
+  color: #8c8c8c;
+  font-family: "宋体";
+  font-size: 12px;
+  text-decoration: none; }
+
+.top_right_shop {
+  float: right;
+  position: relative;
+  margin-top: 19px;
+  z-index: 3; }
+
+.top_right_shop a {
+  display: block;
+  border: 1px solid #d8d8d8;
+  width: 129px;
+  height: 39px;
+  text-align: center;
+  line-height: 39px;
+  background-color: #f9f9f9;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px; }
+
+.top_right_shop .top_right_car {
+  float: left;
+  display: block;
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat -184px -736px;
+  width: 21px;
+  height: 15px;
+  margin-left: 16px;
+  margin-top: 12px; }
+
+.top_right_shop span {
+  float: left;
+  font-family: "宋体";
+  color: #666666; }
+
+.top_right_shop .top_right_car2 {
+  float: right;
+  display: block;
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat -270px -737px;
+  height: 11px;
+  margin-right: 7px;
+  margin-top: 14px;
+  width: 13px; }
+
+.top_right_shop i {
+  font-style: normal;
+  position: absolute;
+  top: -4px;
+  right: 20px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+  background-color: #94193f;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: "宋体"; }
+
+.my_car_list {
+  position: absolute;
+  right: 0;
+  width: 308px;
+  background-color: #fff; }
+
+.my_car_list .car_no_goods {
+  padding: 18px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  font-family: "宋体"; }
+
+.full_nav {
+  border-bottom: 2px solid #94193f;
+  height: 39px;
+  line-height: 39px; }
+
+.full_nav .full_nv {
+  height: 39px;
+  float: left; }
+
+.li_all_type {
+  width: 215px;
+  padding: 0;
+  text-align: center;
+  background-color: #94193f; }
+
+.full_nv li {
+  float: left;
+  position: relative;
+  height: 39px;
+  line-height: 39px;
+  z-index: 5; }
+
+.full_nv li a {
+  text-decoration: none;
+  font-size: 16px; }
+
+.li_all_type a {
+  color: #fff;
+  font-size: 16px;
+  float: left;
+  padding-left: 55px;
+  letter-spacing: 2px; }
+
+.li_all_type b {
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat -36px -128px;
+  height: 8px;
+  width: 16px;
+  position: absolute;
+  right: 16px;
+  top: 19px; }
+
+.li_all_first {
+  padding: 0 30px 0 60px; }
+
+.li_all_first a {
+  color: #303030; }
+
+.li_all_play a {
+  color: #303030; }
+
+.li_all_play {
+  padding: 0 30px; }
+
+.li_all_play div {
+  animation: cus_ani 3s infinite alternate;
+  -webkit-animation: cus_ani 3s infinite alternate;
+  -ms-animation: cus_ani 3s infinite alternate;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  position: absolute;
+  right: -3px;
+  top: 0; }
+
+.li_all_wangyi a {
+  color: #303030; }
+
+.li_all_wangyi {
+  padding: 0 30px; }
+
+.li_all_yipin a {
+  color: #303030; }
+
+.li_all_yipin {
+  padding: 0 30px; }
+
+.main_top {
+  height: 57px;
+  line-height: 57px;
+  overflow: hidden; }
+
+.main_top a {
+  color: #333333;
+  font-size: 14px;
+  text-decoration: none; }
+
+.main_top span {
+  color: #666666;
+  font-size: 14px;
+  padding: 0 8px; }
+
+.main_main .main_left {
+  float: left;
+  width: 380px; }
+
+.main_l_b {
+  width: 100%; }
+
+.main_l_tu {
+  height: 380px;
+  width: 380px;
+  border: 1px solid #e5e5e5; }
+
+.main_smallpic {
+  width: 380px;
+  height: 380px;
+  cursor: crosshair;
+  float: left;
+  position: relative;
+  z-index: 2; }
+
+.main_smallpic img {
+  width: 380px;
+  height: 380px;
+  opacity: 1; }
+
+.zoopup {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  bottom: 0;
+  display: none;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  z-index: 99;
+  opacity: 0.6;
+  left: 0; }
+
+.zoomWindow {
+  background: none repeat scroll 0 0 #fff;
+  height: auto;
+  left: 390px !important;
+  position: absolute;
+  z-index: 110;
+  left: 390px;
+  top: 0px;
+  display: none; }
+
+.zoomWrapper {
+  border: 1px solid #dbdbdb;
+  position: relative;
+  z-index: 110;
+  box-shadow: 0 0 8px #dbdbdb; }
+
+.zoomWrapperTitle {
+  background: none repeat scroll 0 0 #999;
+  color: #fff;
+  display: none !important;
+  font-size: 10px;
+  height: 18px;
+  left: 0;
+  line-height: 18px;
+  opacity: 0.6;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 120; }
+
+.zoomWrapperImage {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 110; }
+
+.zoomPreload {
+  background-color: white;
+  background-position: 43px 30px;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  color: #333;
+  font-family: Tahoma;
+  font-size: 12px;
+  height: 43px;
+  left: 0;
+  opacity: 0.8;
+  padding: 8px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  width: 90px;
+  z-index: 110; }
+
+.zoom_tab {
+  height: 60px;
+  margin: 17px 0 0 25px;
+  position: relative;
+  width: 350px;
+  float: left; }
+
+.zoom_tab .zoom_t_box {
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  width: 370px; }
+
+.zoom_tab .zoom_t_box ul {
+  list-style: outside none none;
+  position: relative; }
+
+.zoom_tab ul li {
+  float: left;
+  list-style: outside none none;
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+.zoom_first {
+  cursor: pointer;
+  display: block;
+  float: left;
+  position: relative;
+  text-align: center; }
+
+.zoom_tab ul li a {
+  display: block;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+.zoom_tab li a img {
+  width: 54px;
+  height: 54px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+.zoom_second {
+  cursor: pointer;
+  display: block;
+  float: left;
+  position: relative;
+  text-align: center; }
+
+.zoom_three {
+  cursor: pointer;
+  display: block;
+  float: left;
+  position: relative;
+  text-align: center; }
+
+.bottm_color {
+  border: 2px solid #c41f3a; }
+
+.zoom_btn_b a {
+  background-image: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png);
+  background-repeat: no-repeat;
+  height: 25px;
+  position: absolute;
+  text-indent: -999em;
+  top: 20px;
+  width: 14px; }
+
+.zoom_btn_b .l {
+  background-position: 0 -373px;
+  left: -25px; }
+
+.zoom_btn_b .r {
+  background-position: -20px -373px;
+  right: -10px; }
+
+.main_left_hao {
+  height: 40px;
+  overflow: hidden;
+  padding-top: 25px;
+  width: 100%; }
+
+.hao_l {
+  color: #999999;
+  display: block;
+  float: left; }
+
+.hao_2 {
+  color: #8b8b8b;
+  float: left;
+  line-height: 16px;
+  padding-left: 23px;
+  padding-right: 10px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.hao_2 li {
+  background-position: -30px -309px;
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat scroll 0 -309px;
+  display: block;
+  float: left;
+  width: 17px;
+  height: 16px;
+  margin-right: 3px;
+  color: #8b8b8b; }
+
+.m_r_m {
+  float: left;
+  margin-left: 30px;
+  width: 560px; }
+
+.m_r_m h1 {
+  color: #303030;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2em;
+  padding-top: 10px;
+  overflow: hidden; }
+
+.m_r_m h1 span {
+  font-size: 18px;
+  color: #303030; }
+
+.em_1 {
+  padding-right: 5px;
+  font-size: 18px;
+  font: inherit; }
+
+.em_2 {
+  padding-left: 5px;
+  font-size: 18px;
+  font: inherit; }
+
+.m_r_top h2 {
+  font-size: 14px;
+  color: #c41f3a;
+  font-weight: normal;
+  margin-top: 15px;
+  line-height: 1.2em;
+  overflow: hidden; }
+
+.m_r_top .m_r_main {
+  width: 100%;
+  background-color: #fefafb;
+  margin-top: 10px;
+  border-bottom: 1px dashed #f0dde1;
+  padding-bottom: 10px; }
+
+.m_r_title {
+  width: 520px; }
+
+.m_r_ti {
+  color: #666;
+  float: left;
+  font-size: 14px;
+  width: 55px;
+  padding-left: 10px;
+  margin-top: 20px; }
+
+.m_price_box {
+  float: left;
+  width: 420px; }
+
+.m_price_box .price_num {
+  font-family: arial;
+  font-size: 42px;
+  color: #c41f3a; }
+
+.price_num em {
+  color: #c41f3a;
+  font-family: "华文细黑",microsoft yahei;
+  font-size: 18px;
+  font-weight: normal; }
+
+.m_r_dollor {
+  padding: 12px 0;
+  overflow: hidden;
+  border-bottom: 1px dotted #dcdcdc; }
+
+.dollor_price {
+  color: #666;
+  float: left;
+  font-size: 14px;
+  width: 55px;
+  padding-left: 10px; }
+
+.dollor_price_2 {
+  color: #333333;
+  font-size: 14px; }
+
+.m_r_bottom {
+  position: relative; }
+
+.m_r_b_t {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0 0 0;
+  line-height: 33px; }
+
+.m_r_b_t span {
+  color: #666;
+  float: left;
+  font-size: 14px;
+  width: 55px;
+  padding-left: 10px; }
+
+.m_r_color_mode {
+  float: left;
+  width: 480px; }
+
+.m_r_color_mode li {
+  overflow: hidden;
+  min-width: 24px;
+  color: #333333;
+  border: 1px solid #c8c8c8;
+  float: left;
+  margin-right: 10px;
+  padding: 0 15px;
+  position: relative;
+  line-height: 30px;
+  height: 32px;
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  border: 2px solid #c41f3a;
+  line-height: 28px; }
+
+.m_r_color_mode li a {
+  color: #404040;
+  text-decoration: none;
+  font-size: 12px; }
+
+.m_r_color_mode b {
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) -87px 0;
+  bottom: 0;
+  display: block;
+  height: 13px;
+  position: absolute;
+  right: 0;
+  width: 12px; }
+
+.m_r_b_mun {
+  height: 34px;
+  line-height: 34px;
+  padding-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0 0 0; }
+
+.m_r_b_mun span {
+  color: #666;
+  float: left;
+  font-size: 14px;
+  width: 55px;
+  padding-left: 10px; }
+
+.m_r_num_input {
+  float: left;
+  position: relative; }
+
+.m_r_num_input .reduce {
+  border: 1px solid #c8c8c8;
+  background-color: #fff;
+  float: left;
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  color: #999999;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none; }
+
+.m_r_num_input input {
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 0px;
+  border-right: 0px;
+  float: left;
+  height: 32px;
+  text-align: center;
+  width: 60px;
+  line-height: 23px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0; }
+
+.m_r_num_input .add {
+  border: 1px solid #c8c8c8;
+  background-color: #fff;
+  float: left;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  color: #999999;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none; }
+
+.main_right_boutm {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0 0 0; }
+
+.main_right_boutm p {
+  width: 100%;
+  overflow: hidden; }
+
+.boutm_box .l {
+  display: block;
+  float: left;
+  width: 136px;
+  height: 36px;
+  border: 2px solid #b51748;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  background-color: #b51748;
+  font-size: 16px;
+  text-decoration: none; }
+
+.boutm_box .r {
+  margin-left: 17px;
+  display: block;
+  float: left;
+  width: 136px;
+  height: 36px;
+  border: 2px solid #a82045;
+  color: #b51748;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  text-decoration: none; }
+
+.boutm_box_zi {
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  line-height: 25px; }
+
+.boutm_box_zi span {
+  font-size: 14px;
+  color: #94193f; }
+
+.boutm_box_zi2 {
+  font-size: 14px;
+  color: #333;
+  overflow: hidden; }
+
+.m_right_right {
+  width: 200px;
+  float: right; }
+
+.m_right_box {
+  width: 160px;
+  height: 191px;
+  margin-left: 20px;
+  text-align: center;
+  color: #444851;
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat scroll 0 -433px; }
+
+.m_right_box .two_ma {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin: 20px 0 6px 20px; }
+
+.m_right_box .two_ma img {
+  width: 100%;
+  margin-top: 20px; }
+
+.m_right_box .two_ma b {
+  background: url(http://ecimg.happigo.com/resource/web/images/detail_icon_list.png) no-repeat scroll -173px -433px;
+  height: 69px;
+  left: 12px;
+  position: absolute;
+  top: -44px;
+  width: 105px; }
+
+.m_right_box .two_ua span {
+  font-size: 13px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 1.3em; }
+
+.two_ua .ws_1 {
+  margin-top: 25px; }
+
+.lan_nav {
+  border-bottom: 4px solid #c1c1c1;
+  overflow: hidden;
+  margin-top: 80px; }
+
+.w720 {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center; }
+
+.lan_nav ul li {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  padding-right: 12px; }
+
+.lan_nav li a {
+  font-size: 12px;
+  font-family: "宋体";
+  color: #666666;
+  text-decoration: none; }
+
+.lan_nav li span {
+  background: #dfdfdf none repeat scroll 0 0;
+  height: 14px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 14px;
+  background-color: #fff;
+  border-right: 1px solid #a9a9a9; }
+
+.footer {
+  background-color: #fff;
+  overflow: hidden;
+  display: block;
+  width: 100%; }
+
+.footer .footer_box {
+  width: 1200px;
+  margin: 0 auto; }
+
+.footer .footer_bottom p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "宋体";
+  color: #7e7e7e;
+  line-height: 25px;
+  font-size: 12px; }
+
+.footer_bottom p span {
+  font-family: Arial;
+  color: #666666; }
+
+.foot_p {
+  padding: 30px 0 40px 0;
+  margin-top: 20px; }

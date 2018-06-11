@@ -167,15 +167,50 @@
     margin-top: 40px;
     width: 415px;
 }
-
-
-
-
-
-
-
-
-
+//空空如也
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.car_no_goods_box{
+    zoom: 1;
+}
+.car_no_goods{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    font-family: "宋体";
+}
+.car_no_goods img{
+    float: left;
+}
+.no_goods{
+    float: left
+}
+.no_goods_t{
+    padding-top: 65px;
+    font-size: 18px;
+    color: #000000;
+}
+.car_no_goods a{
+    text-decoration: none;
+}
+.no_goods_buy{
+    margin-left: 79px;
+    margin-top: 35px;
+    display: block;
+    height: 49px;
+    width: 190px;
+    background-color: #94193f;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 49px
+}
 
 
 
@@ -187,10 +222,13 @@
 
 
 //底部样式
+.bottom_tu{
+    margin-top: 20px;
+}
 .lan_nav {
   border-bottom: 4px solid #c1c1c1;
   overflow: hidden;
-  margin-top: 80px; }
+  padding-top: 16px; }
 
 .w720 {
   width: 720px;

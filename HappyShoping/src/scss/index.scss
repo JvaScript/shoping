@@ -36,7 +36,10 @@
 
 .login_l .login_l_l {
   padding: 0 10px 0 20px; }
-
+.login_l .login_l_l:hover{
+    color: #94193f;
+    text-decoration: underline;
+}
 .login_l .lee {
   background: #dfdfdf none repeat scroll 0 0;
   height: 14px;
@@ -46,7 +49,10 @@
 
 .login_l .login_l_r {
   padding-left: 8px; }
-
+.login_l .login_l_r:hover{
+    color: #94193f;
+    text-decoration: underline;
+}
 .h_t_r {
   float: right; }
 
@@ -56,7 +62,10 @@
   line-height: 36px;
   position: relative;
   z-index: 8; }
-
+.h_t_r ul li:hover a{
+    color: #94193f;
+    text-decoration: underline;
+}
 .h_t_r a {
   font-family: "宋体";
   padding: 0 10px;
@@ -312,7 +321,12 @@
   text-decoration: none;
   font-size: 16px;
    }
-
+.full_nav li a:hover{
+  color: #94193f;
+}
+.full_nv li .s:hover{
+    color:#fff;
+}
 .li_all_type a {
   color: #fff;
   font-size: 16px;
@@ -393,6 +407,9 @@
     line-height: 35px;
     margin-top: 15px;
     cursor: pointer;
+}
+.li_has_down:hover .nav_type_list{//--------------------------?
+    display: block;
 }
 .type_color{
     color: #333;
@@ -611,6 +628,9 @@
     width: 61px;
     z-index: 9;
 }
+.tempWrap_ul .pro_list:hover p{
+    text-decoration: underline;
+}
 .pro_list .pro{
     width: 180px;
     height: 180px;
@@ -642,7 +662,7 @@
 }
 .box_glay a{
     text-decoration: none;
-    color: #434343;;
+    color: #000;
     font-size: 12px;
 }
 .now_price {
@@ -677,6 +697,9 @@
     width: 100%;
     overflow: hidden;
     zoom: 1;
+}
+.tab_change_ul li:hover a{
+    color: #94193f;
 }
 .xian_time{
     border: none;
@@ -757,6 +780,12 @@ a{
 }
 a img{
     border: 0;
+}
+.li_start .xsqg_title:hover p{
+    text-decoration: underline;
+}
+.start_2:hover p{
+    text-decoration: underline;
 }
 .li_start .xsqg_djs {
     background: #3d3d3d;

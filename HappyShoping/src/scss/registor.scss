@@ -144,13 +144,14 @@
     width: 100%;
     overflow: hidden;
 }
-.denglu .login_btn a{
+.denglu .login_btn {
     display: block;
     width: 317px;
     height: 40px;
     color: #fff;
     line-height: 40px;
     background-color: #94193f;
+    border: 1px solid #94193f;
     text-align: center;
     font-size: 14px;
     font-family: "宋体";
@@ -173,39 +174,6 @@
 }
 
 
-.m_r_btn_btn h5{
-    color: #333;
-    height: 24px;
-    line-height: 24px;
-    font-size: 12px;
-    font-family: "宋体";
-    font: inherit;
-    padding-top: 10px;
-}
-.m_r_btn_btn ul{
-    margin-top: 10px;
-}
-.m_r_btn_btn ul li{
-    display: inline-block;
-    margin-right: 10px;
-    
-}
-.m_r_btn_btn ul li a{
-    text-indent: -999em;
-    display: block;
-    width: 50px;
-    height: 50px;
-    background: url(../img/login_icon_list.png) 0 0;
-}
-.m_r_btn_btn ul li .qq{
-    background-position: 0 -32px;
-}
-.m_r_btn_btn ul li .xl{
-    background-position: -74px -32px;
-}
-.m_r_btn_btn ul li .zfb{
-    background-position: -143px -32px;
-}
 
 
 //footer_start

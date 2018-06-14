@@ -167,13 +167,16 @@
     width: 100%;
     overflow: hidden;
 }
-.denglu a{
-    display: block;
+ #btn{
+   background: #94193f;
+   color: #fff;
+   display: block;
+   border: 1px solid #94193f;
     width: 317px;
     height: 40px;
-    color: #fff;
+    //color: #fff;
     line-height: 40px;
-    background-color: #94193f;
+   // background-color: #94193f;
     text-align: center;
     font-size: 14px;
     font-family: "宋体";

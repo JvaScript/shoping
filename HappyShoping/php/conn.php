@@ -29,4 +29,21 @@
 	$index->rec=$recommend;
 	
 	echo json_encode($index);
+	
+	
+	//---------------------login的 登录界面
+/*	if(isset($_POST['user'])){
+		$username=$_POST['user'];
+		$password=md5($_POST['pass']);
+	}else{
+		exit('非法操作');
+	}
+
+
+	$result=mysql_query("select * from user where username='$username' and password='$password' ");
+	if(mysql_fetch_array($result)){//有值，登陆通过
+		echo true;
+	}else{
+		echo false;
+	}*/
 ?>

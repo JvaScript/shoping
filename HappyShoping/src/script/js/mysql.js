@@ -10,7 +10,7 @@
 		console.log(d);
 		$bannerli=$('.lunbo1');
 		$bannerli.each(function(index){
-			console.log(d.lunbo)
+			//console.log(d.lunbo)
 			$(this).html('<img src="'+d.lunbo[index].img+'">');
 		})
 		}	
@@ -28,7 +28,7 @@
 		console.log(d);
 		$bannerli=$('.tempWrap_ul .li_start');
 		$bannerli.each(function(index){
-			console.log(d.lunbo)
+			//console.log(d.lunbo)
 			$(this).html('<a class="pro" title="Merefa芳华真丝珍珠缎连衣裙" href="#" alt="Merefa芳华真丝珍珠缎连衣裙"><img src="'+d.rec[index].img+'" style=""></a><p class="p_num">'+d.rec[index].small_title+'</p><p class="box_glay"><a class="pro_text" title="Merefa芳华真丝珍珠缎连衣裙" href="http://www.happigo.com/item-180525.html" target="_blank"><span>'+d.rec[index].main_title+'</span></a></p><div class="now_price"><div class="price_l"><span class="bigfont"><span class="f_14">￥</span><span>'+d.rec[index].main_price+'</span></span><span><del>￥'+d.rec[index].small_price+'</del></span></div></div>');
 		})
 		}	
@@ -43,10 +43,9 @@
 		dataType:'json',
 		async:true
 	}).done(function(d){
-		console.log(d);
+		//console.log(d);
 		$bannerli=$('.tempWrap_ul .li_start');
 		$bannerli.each(function(index){
-			console.log(d.lunbo)
 			$(this).html('<a class="pro" title="#" style=""><img src="'+d.rec[index].img+'" style=""></a><p class="p_num">'+d.rec[index].small_title+'</p><p class="box_glay"><a class="pro_text" title="Merefa芳华真丝珍珠缎连衣裙" href="http://www.happigo.com/item-180525.html" target="_blank"><span>'+d.rec[index].main_title+'</span></a></p><div class="now_price"><div class="price_l"><span class="bigfont"><span class="f_14">￥</span><span>'+d.rec[index].main_price+'</span></span><span><del>￥'+d.rec[index].small_price+'</del></span></div></div>');
 		})
 		}	
@@ -64,9 +63,8 @@
 		console.log(d);
 		$bannerli=$('.tempWrap_ul .li_start');
 		$bannerli.each(function(index){
-			console.log(d.lunbo)
-			$(this).html('<a class="pro" title="#" style=""><img src="'+d.rec[index].img.split(',')[0]+'" style=""></a><p class="p_num">'+d.rec[index].small_title+'</p><p class="box_glay"><a class="pro_text" title="Merefa芳华真丝珍珠缎连衣裙" href="http://www.happigo.com/item-180525.html" target="_blank"><span>'+d.rec[index].main_title+'</span></a></p><div class="now_price"><div class="price_l"><span class="bigfont"><span class="f_14">￥</span><span>'+d.rec[index].main_price+'</span></span><span><del>￥'+d.rec[index].small_price+'</del></span></div></div>');
-
+			console.log(d.rec)
+			$(this).html('<a class="pro" title="#" style=""><img src="'+d.rec[index].img.split(',')[0]+'" style=""></a><p class="p_num">'+d.rec[index].small_title+'</p><p class="box_glay"><a class="pro_text" title="Merefa芳华真丝珍珠缎连衣裙" href="javascript:;" target="_blank"><span>'+d.rec[index].main_title+'</span></a></p><div class="now_price"><div class="price_l"><span class="bigfont"><span class="f_14">￥</span><span>'+d.rec[index].main_price+'</span></span><span><del>￥'+d.rec[index].small_price+'</del></span></div></div>');
 		})
 		}	
 	)
@@ -80,13 +78,13 @@
 		dataType:'json',
 		async:true
 	}).done(function(d){
-		console.log(d);
-		$bannerli=$('#ulist ul li');
+		$bannerli=$('#list li');
+		
 		$bannerli.each(function(index){
-			console.log(d.lunbo)
-			console.log(d.rec)
-			$(this).html('<a href="details.html?sid=d[index].sid ><img src="'+d[index].img.split(',')[0]+'"></a>');
+			console.log(d);
+			$(this).html('<a><img src="'+d[11].img.split(',')[index]+'"></a>');
 			//location.search
+			//console.log(d[11].img.split(',')[0]);
 		})
 		}	
 	)
@@ -95,7 +93,7 @@
 /*//详情页商品信息拼接
         var sid=location.search.split('=')[1];-------------d.rec[index].img.split(',')[0]-----d.rec[index].sid
         $.ajax({
-            url:'../../php/detailsData.php',
+            url:'../../php/detailsData.php',---------------- href="details.html?sid=   --------------
             dataType: 'json',
             data:{sid: sid}
         }).done(function(data){
@@ -112,6 +110,23 @@
             $detailsBpic.attr('src',urlarr[0]);
             $detailTitle.html(data.title);
             pricearr=data.price.split('.');
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             $detailPrice.find('i').html(pricearr[0].slice(0,1));
             $detailPrice.find('b').html(pricearr[0].slice(1)+'.');
             $detailPrice.find('em').html(pricearr[1]);
@@ -126,3 +141,5 @@ http:\\//ecimg.happigo.com\\/data\\/upload\\/shop\\/store\\/goods\\/1\\/266\\/23
 
 
 //http://ecimg.happigo.com/data/upload/shop/store/goods/1/266/234266/1_05805809405839824_550.jpg,http://ecimg.happigo.com/data/upload/shop/store/goods/1/266/234266/1_05805809702620562_1280.jpg,http://ecimg.happigo.com/data/upload/shop/store/goods/1/266/234266/1_05805809661048660_1280.jpg,http://ecimg.happigo.com/data/upload/shop/store/goods/1/266/234266/1_05805809622236120_1280.jpg,http://ecimg.happigo.com/data/upload/shop/store/goods/1/266/234266/1_05805809647394596_1280.jpg
+
+/*<img src="http:\\//ecimg.happigo.com\\/data\\/upload\\/shop\\/store\\/goods\\/1\\/266\\/234266\\/1_05805809405839824_550.jpg, http:\\//ecimg.happigo.com\\/data\\/upload\\/shop\\/store\\/goods\\/1\\/266\\/234266\\/1_05805809702620562_1280.jpg, http:\\//ecimg.happigo.com\\/data\\/upload\\/shop\\/store\\/goods\\/1\\/266\\/234266\\/1_05805809661048660_1280.jpg, http:\\//ecimg.happigo.com\\/data\\/upload\\/shop\\/store\\/goods\\/1\\/266\\/234266\\/1_05805809622236120_1280.jpg, http:\\//ecimg.happigo.com\\/data\\/upload\\/shop\\/store\\/goods\\/1\\/266\\/234266\\/1_05805809647394596_1280.jpg">*/

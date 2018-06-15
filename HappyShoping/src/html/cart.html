@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>快乐购商城</title>
+		<meta name="keywords" content="快乐购商城" />
+		<meta name="description" content="快乐购商城" />
 		<link rel="stylesheet" href="../css/reset.css" />
 		<link rel="stylesheet" href="../css/cart.css" />
 	</head>
@@ -90,6 +92,67 @@
 				</div>
 			</div>
 		</div>
+		<!--已购商品列表-->
+		<div class="w1200">
+			<div class="car_top">
+				<div class="top_left">
+					<div class="select_all">
+						<input type="checkbox" />
+						<span>全选</span>
+					</div>
+					<div class="top_left_r">
+						<span>商品</span>
+					</div>
+				</div>
+				<div class="car_top_right s1">单价（元）</div>
+				<div class="car_top_right s2">数量</div>
+				<div class="car_top_right s3">小计（元）</div>
+				<div class="car_top_right s4">操作</div>
+			</div>
+			<div class="selef_ying">
+				<div class="ying_left">
+					<input type="checkbox" />
+					<span class="span_1">自营</span>
+					<span class="span_2">快乐购商城</span>
+				</div>
+				<div class="ying_right">在线支付满129.00包邮</div>
+			</div>
+			<div class="shoping">
+				<div class="shoping_left">
+					<input type="checkbox" />
+					<img src="http://ecimg.happigo.com/data/upload/shop/store/goods/1/79/236079/1_05772684223138698_60.jpg" />
+					<span>迪菲怡时尚缎面秀场款连衣裙套组 套组 XL</span>
+				</div>
+				<div class="price">￥199.00</div>
+				<div class="add_reduce">
+					<div class="quantity_form">
+                        <a class="a_decrease " href="javascript:void(0);" onclick="decrease_quantity(12108892);">-</a>
+                        <input maxlength="3" type="text" value="1" class="itxt" autocomplete="off" id="input_item_12108892" name="number" orig="1" changed="1" onkeyup="change_quantity(12108892, this);this.value=this.value.replace(/\D/g,'');" onafterpaste="this.value=this.value.replace(/\D/g,'')">
+                        <a class="a_add" href="javascript:void(0);" onclick="add_quantity(12108892);">+</a>
+                        <input value="179596" id="item12108892_goods_common_id" type="hidden">
+                    </div>
+				</div>
+				<div class="price_2">￥199.00</div>
+				<div class="delecate">删除</div>
+			</div>
+			<div class="over_all">
+				<div class="over_left">
+					<input type="checkbox" />
+					<span>全选</span>
+				</div>
+				<div class="over_right">
+					<div class="left">
+						以选商品<span>1</span>件
+					</div>
+					<div class="main">商品总价（不含运费）
+						<span>￥199.00</span>
+					</div>
+					<div class="right">
+						<a href="javascript:;">去结算</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		
 		
@@ -149,5 +212,9 @@
 				</div>
 			</div>
 		</div>
+	<script type="text/javascript" src="../script/lib/jquery.min.js"></script>
+	<script src="../script/js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../script/js/car.js"></script>
+		
 	</body>
 </html>

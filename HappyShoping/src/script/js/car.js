@@ -24,7 +24,7 @@ $.ajax({
 //2.根据cookie值，创建一个商品列表的函数
 function createcart(sid, num) {//sid：图片的编号  num:商品的数量
     $.ajax({
-        url: 'json/cart.json',
+        url: 'cart.json',
         dataType: 'json'
     }).done(function(data) {
         for (var i = 0; i < data.length; i++) {
